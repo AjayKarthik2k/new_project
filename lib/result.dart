@@ -37,7 +37,7 @@ class Result extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
         ),
-        RaisedButton(
+        FlatButton(
           child: Text("RESET QUIZ"),
           onPressed: resetQuizFunction,
         ),
